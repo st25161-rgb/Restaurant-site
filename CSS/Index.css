@@ -1,10 +1,24 @@
 
-        .links {
-        display:flex;  
-        justify-content: space-evenly;
-        font-size: 20px;
-        background-color: rgb(207, 225, 128, 0.541);
-        height:40px;
-        padding: 15px 0px 0px 0px;
-    }
+.links {
+    display:flex;  
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-color: rgb(207, 225, 128, 0.541);
+    height:40px;
+    padding: 15px 0px 0px 0px;
+}
+#title {
+
+}
+
+.lists {
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    column-gap: 10px;
+}
+
+
 
