@@ -17,8 +17,19 @@
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;   
-    column-gap: 10px;
+    background-color: rgb(216, 196, 142);
+    justify-content: space-evenly;
 }
+.list {
+    border-style: dashed;
+}
+.Italian-cuisine {
+    background-color: aliceblue;
 
-
-
+}
+.Thai-cuisine {
+    background-color: aliceblue;
+}
+.Restaurant {
+    background-color:aliceblue
+}
