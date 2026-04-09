@@ -5,43 +5,72 @@ body {
 header {
     font-size: 30px;
 }
+
+/* Links and how they look */
 .links {
     display:flex;  
     justify-content: space-evenly;
     font-size: 20px;
-    background-color: rgb(207, 225, 128, 0.541);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s");
     height:40px;
     padding: 15px 0px 0px 0px;
+}
+.links a:link {
+    text-decoration: transparent;
+    color: aliceblue;
+}
+.links a:hover {
+    font-size: larger;
+    text-decoration: underline;
+}
+.links a:visited {
+    color: beige;
+    text-decoration: line-through;
 }
 /* styling the titles */
 #title {
     text-decoration: underline;
-    text-decoration-color: aliceblue;
+    text-decoration-color: rgb(0, 0, 0);
 }
-#title1 {
-    background-color: aliceblue;
-    text-align: center;
-}
-/* creation of the lists and grid layout for them */
 
+#title1 {
+    font-size: 40px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s");
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    
+}
+
+/* creation of the lists and grid layout for them */
+@media screen {
 .lists {
-    margin-top: 20px;
+    margin-top:-40px;   
     display: grid;
     grid-template-columns:auto auto auto ;
+    justify-content: space-evenly;
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     height: 140px;
     font-style: normal;   
-    background-color: rgb(216, 19   6, 142);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s");
 
 }
+}
+
+/*div list titles  */
 #name {
     font-size: 20px;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    text-decoration: underline;
+    animation: Namecolour 5s;
+    
 }
+
 /* editing the divs within the list to style them each individualy */
 .lists div {
     border-style:groove;
@@ -51,4 +80,23 @@ header {
     width:200px;
     margin-left: 15px;
     background-image: url("https://market-resized.envatousercontent.com/photodune.net/EVA/TRX/50/e6/75/a4/a3/v1_E10/E10U27L.jpg?auto=format&q=94&mark=https%3A%2F%2Fassets.market-storefront.envato-static.com%2Fwatermarks%2Fphoto-260724.png&opacity=0.2&cf_fit=contain&w=590&h=330&s=b0ac2bd0cef7655b25a6fc6e9e74d558da499b73d9c143d728a1ccd2d8aac253");
+
+}
+
+
+/* making keyframes for the page*/
+
+@keyframes Namecolour {
+    /* duration/subject/type */
+   0% {color:antiquewhite; }
+   100% {color: rgb(0, 0, 0); }
+}
+
+@keyframes typing{
+    from {width: 0%;}
+    to {width: 100%;}
+}
+@keyframes blink {
+    from,to {border-color: transparent;}
+    50% {border-color:orange;}
 }
