@@ -82,6 +82,7 @@ nav {
     /* border */
     border-style: groove;
     width: 25%;
+    height:auto;
     border-bottom-style: double;
     border-color: #7ca4b7;
     /* placement */
@@ -94,16 +95,56 @@ nav {
 .Cusinecolumn {
     display: grid;
     grid-template-columns: auto auto;
-    /* background-image: url("https://i.pinimg.com/236x/72/e6/93/72e693b9b416902395eae3cf199d04e1.jpg"); */
+    column-gap: 100px;
+    width: 1500px;
+    height: auto;
+    position: relative;
 }
+
 #Foodtitle {
-    color: #ffffff;
+    /* font style/colour */
+    color: #000000;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
-
+    font-size: 30px;
+    /* position/placement */
+    padding: 5px 0px 10px 10px;
 }
 
+#img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-style: double double ridge ridge;
+    margin: 10px 20px 10px 10px;
+}
+
+#imgtitle {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+#Foodblurb {
+    /* font styling */
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* padding */
+    border-style: none none double none;
+    
+}
+
+#contentback {
+    background-color: rgba(222, 221, 221, 0.573);
+    width: 75%;
+    height: 100%;
+    overflow-x: break-word;
+
+}
 
 /* animations */
 @keyframes unvisited {
