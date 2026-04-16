@@ -1,28 +1,56 @@
 <!DOCTYPE html>
 <head>
     <title>Foods</title>
+    <!-- Font embeds -->
     <link rel="stylesheet" href="CSS/page2.css">
     <meta name="viewport" content="width=device-width, initital-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
     <header>
-        <h1 id="title"> </h1>
+        <h1 id="title"> Cuisines </h1>
 
     </header>
-    <nav>
+    <nav Class="links">
+        <a href="/Index.html">Main Page</a>
+        <a href="/page4.html">contact Page</a>
+
 
     </nav>
-    <main class="Cuisine">
-        <!-- Making them into two tiny containers so you can read both side by side -->
-        <h1 class="Italian"> Name of cuisine</h1>
-            <h3> food name</h3>
-                <p>Text</p>
-            <h3> food name</h3>
-        <h1 class="Thai"> Name of cuisine</h1>
-            <h3> food name</h3>
-                <p>Text</p>
-            <h3> food name</h3>
+    <main>
+        <!-- Making them into two tiny containers so you can read both individually -->
+    <div class="Cuisinetab">
+        <button class="tablinks" oneclick="openCuisine(event, 'Italian')">Thai</button>
+        <button class="tablinks" oneclick="openCuisine(event, 'Thai')">Thai</button>
+<!-- The content held within the tabs -->
+    </div>
+        <div id="Italian" class="Cuisine">
+            <h1 id="title1"> Italian Cuisine</h1>
+                <div class="Thai1">
+                    <h3> food name</h3>    
+                        <p>text</p>
+                </div>
+                <div class="Thai2">
+                    <h3> food name</h3>    
+                         <p>text</p>
+
+            </div>
+        <div id="Thai" class="Cuisine">
+            <h1 id="title1"> Thai Cuisine</h1>
+                <div class="Thai">
+                    <h3> food name</h3>    
+                        <p>text</p>
+                </div>
+                <div class="Thai">
+                    <h3> food name</h3>    
+                         <p>text</p>
+            </div>
+        </div>
 
     </main>
     <footer>

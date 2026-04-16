@@ -1,9 +1,9 @@
 function appear() {
     appear() {
     const show=
-    document.getElementsByClassName("the name of class i will show")
+    document.getElementsByClassName("cuisines")
     const notShow =
-    doccument.querySelectorAll(".classnames,classnames")
+    doccument.querySelectorAll(".Thai, Italian")
 
     for(i=0; i < show.length; i++) {
         show[i].style.display = "block"
