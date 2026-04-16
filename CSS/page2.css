@@ -3,17 +3,49 @@ body {
     background-image: url("https://motionarray.imgix.net/2219796-zYpbv03KZb-high_0013.jpg?w=660&q=60&fit=max&auto=format");
 }
 
-#title {
-    font-family:'Courier New', Courier, monospace
-}
-
-.Cuisinetitle {
+#title1 {
+    /* font and text information and styling */
+    color: rgb(244, 255, 240);
+    font-size: 50px;
+    text-align: center;
+    text-decoration:underline overline;
+    padding: 15px 0px 10px 0px;
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+
+    /* placement and background */
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/24097078/thumb/1.jpg?ip=x480");
+    border-style: groove double;
+    border-top-color: black ;
+    border-bottom-color: black;
+    border-radius: 25%;
+    
+
+    
 }
 
-.
+.links {
+    /* display arrangement */
+    display: flex;
+    justify-content: space-evenly;
+
+    /* background */
+    background-color: rgba(187, 170, 204, 0.544);
+    height: 50px;
+    width: 1200px;
+    position: absolute;
+    left: 150px;
+    margin: 10px 0px 20px 0px;
+}
+
+.Cuisinecolumn {
+
+}
+
+.Cuisine {
+
+}

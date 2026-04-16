@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Foods</title>
+    <title>Cuisines</title>
     <!-- Font embeds -->
     <link rel="stylesheet" href="CSS/page2.css">
     <meta name="viewport" content="width=device-width, initital-scale=1.0">
@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <h1 id="title"> Cuisines </h1>
+        <h1 id="title1"> Cuisines </h1>
 
     </header>
     <nav Class="links">
@@ -22,33 +22,71 @@
 
 
     </nav>
+    
+    <br>
+
     <main>
         <!-- Making them into two tiny containers so you can read both individually -->
     <div class="Cuisinetab">
-        <button class="tablinks" oneclick="openCuisine(event, 'Italian')">Thai</button>
+        <button class="tablinks" oneclick="openCuisine(event, 'Italian')">Italian</button>
         <button class="tablinks" oneclick="openCuisine(event, 'Thai')">Thai</button>
-<!-- The content held within the tabs -->
     </div>
-        <div id="Italian" class="Cuisine">
-            <h1 id="title1"> Italian Cuisine</h1>
-                <div class="Thai1">
-                    <h3> food name</h3>    
-                        <p>text</p>
-                </div>
-                <div class="Thai2">
-                    <h3> food name</h3>    
-                         <p>text</p>
 
-            </div>
-        <div id="Thai" class="Cuisine">
-            <h1 id="title1"> Thai Cuisine</h1>
-                <div class="Thai">
-                    <h3> food name</h3>    
-                        <p>text</p>
+    <!-- The content held within the tabs -->
+
+         <!-- first tabs information -->
+        <div id="Italian" class="Cuisine">
+            <h1 id="title2"> Italian Cuisine</h1>
+                <div class="Cusinecolumn"> <!-- for making the grid display each item in a column side by side -->
+                    <div class="Italian1">  <!-- class for the frist items "room" -->
+                        <h3  id="Foodtitle"> Lasagna</h3>    
+                            <p id="Foodblurb">
+                                Lasagna is a type of pasta made in flat and wide sheets, it originates from italian cuisine and served 
+                                <br>
+                                in many forms. baked from wide flat noodles layered with meat, cheese and sauce, it comes from 
+                                <br>
+                                <b>Ancient Italy</b> and is a rich and savoury dessert
+                            </p>
+                    </div>
                 </div>
+
+                    <div class="Italian2">  <!-- class for the frist items "room" -->
+                       <h3 id="Foodtitle"> Italian pasta salad</h3>
+                            <p id="Foodblurb">
+                                This dish is another of my favourites and I like eating. It has salad as well as pasta mixed together. 
+                                <br>
+                                It consists of many different types of herbs in small amounts and the texture is really nice.
+                                <br>
+                                Lasagna is one of the oldest pasta types with its roots going back to <b>ancient Greece</b> <b>and Rome</b>,
+                                <br>
+                                 its more modern version as a layered dish was evolved from ancient Italy during the middle ages.
+ 
+                            </p>
+                    </div>
+        
+        <!-- second tabs information -->
+        <div id="Thai" class="Cuisine">
+            <h1 id="title2"> Thai Cuisine</h1>
+            <div class="Cusinecolumn"> <!-- for making the grid display each item in a column side by side -->
                 <div class="Thai">
-                    <h3> food name</h3>    
-                         <p>text</p>
+                    <h3 id="Foodtitle"> Pad See Ew</h3>    
+                        <p id="Foodblurb">A stir fried noodle recipe with thick noodles. Pad see ew means “stir fried soy sauce noodles” It’s a popular street food meal. 
+                            <br>
+                            Pad See Ew combines Cantonese stir fry style with Thai flavors and mixes in Chinese Broccoli. 
+                             <br>
+                             It is a mix of cultures, with the dish being altered to fit into local tastes by substituting original ingredients with local ones instead.
+                        </p>
+                </div>
+
+                <div class="Thai">
+                    <h3 id="Foodtitle"> Tom Yom Goong</h3>    
+                        <p id="Foodblurb">
+                            Goong in Tom Yung Goong the Goong just means shrimp so this is a shrimp soup.
+                            <br>
+                            A traditional Thai Hot and Sour Shrimp Soup, it originates from the Thai central plains where the ingredients are.
+                            <br>
+                            The more modern recipe used emerged in the 20th century though, changing from a local nourishment into a globally recognized recipe.
+                        </p>
             </div>
         </div>
 
