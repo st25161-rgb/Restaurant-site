@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Cuisines</title>
+
     <!-- Font embeds -->
     <link rel="stylesheet" href="CSS/page2.css">
     <meta name="viewport" content="width=device-width, initital-scale=1.0">
@@ -8,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 
 
 </head>
@@ -17,17 +22,18 @@
 
     </header>
     <nav Class="links">
-        <a href="/Index.html">Main Page</a>
-        <a href="/page4.html">contact Page</a>
+        <a href="/Index.html" target="blank">Main Page</a>
+        <a href="/page4.html" target="blank2">contact Page</a>
 
 
     </nav>
+
     
-    <br>
 
     <main>
         <!-- Making them into two tiny containers so you can read both individually -->
     <div class="Cuisinetab">
+        <button class="tablinks" oneclick="openCuisine"(event, pressabutton)>press something</button>
         <button class="tablinks" oneclick="openCuisine(event, 'Italian')">Italian</button>
         <button class="tablinks" oneclick="openCuisine(event, 'Thai')">Thai</button>
     </div>
@@ -38,7 +44,8 @@
         <div id="Italian" class="Cuisine">
             <h1 id="title2"> Italian Cuisine</h1>
                 <div class="Cusinecolumn"> <!-- for making the grid display each item in a column side by side -->
-                    <div class="Italian1">  <!-- class for the frist items "room" -->
+                <!-- content within said grid to be seprated -->
+                    <div class="Italian1" id="contentback">  <!-- class for the first items "room" -->
                         <h3  id="Foodtitle"> Lasagna</h3>    
                             <p id="Foodblurb">
                                 Lasagna is a type of pasta made in flat and wide sheets, it originates from italian cuisine and served 
@@ -48,9 +55,9 @@
                                 <b>Ancient Italy</b> and is a rich and savoury dessert
                             </p>
                     </div>
-                </div>
+                
 
-                    <div class="Italian2">  <!-- class for the frist items "room" -->
+                    <div class="Italian2" id="contentback">  <!-- class for the first items "room" -->
                        <h3 id="Foodtitle"> Italian pasta salad</h3>
                             <p id="Foodblurb">
                                 This dish is another of my favourites and I like eating. It has salad as well as pasta mixed together. 
@@ -63,23 +70,25 @@
  
                             </p>
                     </div>
-        
-        <!-- second tabs information -->
+                </div>
+                
+            <!-- second tabs information -->
         <div id="Thai" class="Cuisine">
             <h1 id="title2"> Thai Cuisine</h1>
-            <div class="Cusinecolumn"> <!-- for making the grid display each item in a column side by side -->
-                <div class="Thai">
-                    <h3 id="Foodtitle"> Pad See Ew</h3>    
-                        <p id="Foodblurb">A stir fried noodle recipe with thick noodles. Pad see ew means “stir fried soy sauce noodles” It’s a popular street food meal. 
-                            <br>
-                            Pad See Ew combines Cantonese stir fry style with Thai flavors and mixes in Chinese Broccoli. 
-                             <br>
-                             It is a mix of cultures, with the dish being altered to fit into local tastes by substituting original ingredients with local ones instead.
-                        </p>
-                </div>
-
-                <div class="Thai">
-                    <h3 id="Foodtitle"> Tom Yom Goong</h3>    
+                <div class="Cusinecolumn"> <!-- for making the grid display each item in a column side by side -->
+                <!-- content within said grid to be seprated -->
+                    <div class="Thai1" id="contentback">
+                        <h3 id="Foodtitle" > Pad See Ew</h3>    
+                            <p id="Foodblurb">A stir fried noodle recipe with thick noodles. Pad see ew means “stir fried soy sauce noodles” It’s a popular street food meal. 
+                                <br>
+                                Pad See Ew combines Cantonese stir fry style with Thai flavors and mixes in Chinese Broccoli. 
+                                 <br>
+                                 It is a mix of cultures, with the dish being altered to fit into local tastes by substituting original ingredients with local ones instead.
+                            </p>
+                    </div>
+                
+                    <div class="Thai2" id="contentback">
+                        <h3 id="Foodtitle"> Tom Yom Goong</h3>    
                         <p id="Foodblurb">
                             Goong in Tom Yung Goong the Goong just means shrimp so this is a shrimp soup.
                             <br>
@@ -87,10 +96,11 @@
                             <br>
                             The more modern recipe used emerged in the 20th century though, changing from a local nourishment into a globally recognized recipe.
                         </p>
-            </div>
+                </div>
         </div>
 
     </main>
+
     <footer>
         <h1 id="title"> </h1>
 
