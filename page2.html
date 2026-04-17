@@ -2,9 +2,11 @@
 <head>
     <title>Cuisines</title>
 
-    <!-- Font embeds -->
+    <!-- file links -->
     <link rel="stylesheet" href="CSS/page2.css">
+    <script src="/Java/page2.js"></script>
     <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <!-- Font embeds fml why doesnt js work!!!-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,9 +28,10 @@
 
     </header>
     <nav Class="links">
-        <a href="/Index.html" target="blank">Main Page</a>
-        <a href="/page4.html" target="blank2">contact Page</a>
 
+        <a href="/Index.html" target="blank">Main Page</a>
+        <a href="/page3.html" target="blank2">Restaurant</a>
+        <a href="/page4.html" target="blank2">contact Page</a>
 
     </nav>
 
@@ -36,16 +39,15 @@
 
     <main>
         <!-- Making them into two tiny containers so you can read both individually -->
-    <div class="Cuisinetab">
-        <button class="tablinks" oneclick="openCuisine"(event, pressabutton)>press something</button>
-        <button class="tablinks" oneclick="openCuisine(event, 'Italian')">Italian</button>
-        <button class="tablinks" oneclick="openCuisine(event, 'Thai')">Thai</button>
-    </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openCuisine(event, 'Thai')">Thai</button>
+            <button class="tablinks" onclick="openCuisine(event, 'Italian')">Italian</button>
+        </div>
 
     <!-- The content held within the tabs -->
 
          <!-- first tabs information -->
-        <div id="Italian" class="Cuisine">
+        <div id="Italian" class="tabcontent">
             <h1 id="title2"> Italian Cuisine</h1>
                 <div class="Cusinecolumn"> <!-- for making the grid display each item in a column side by side -->
                 <!-- content within said grid to be seprated -->
@@ -82,7 +84,7 @@
                 </div>
                 
             <!-- second tabs information -->
-        <div id="Thai" class="Cuisine">
+        <div id="Thai" class="tabcontent">
             <h1 id="title2"> Thai Cuisine</h1>
                 <div class="Cusinecolumn"> <!-- for making the grid display each item in a column side by side -->
                 <!-- content within said grid to be seprated -->
@@ -118,6 +120,7 @@
     </main>
 
     <footer>
+
         <h1 id="title"> </h1>
 
     </footer>

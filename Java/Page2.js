@@ -1,16 +1,15 @@
-// function appear(evt, cuisines) {
-//     var i, cusine
-//     appear() {
-//     const show=
-//     document.getElementsByClassName("cuisines")
-//     const notShow =
-//     doccument.querySelectorAll(".Thai, Italian")
+//@ts-check
+ 
+// @ts-ignore
+function openCuisine(evt, Italian) {
+    // @ts-ignore
+    // @ts-ignore
+    var i, Cuisine, tablinks
 
-//     for(i=0; i < show.length; i++) {
-//         show[i].style.display = "block"
-//     }
+    Cuisine = document.getElementsByClassName("Cuisine"); 
+    for (i = 0)
+}
 
-//     for(n=0; n < notShow.length; n++) {
-//         notShow[n].style.display = "none"
-//     }
-// }
+
+
+

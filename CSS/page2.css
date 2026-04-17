@@ -45,8 +45,9 @@ nav {
     border-style: groove groove double double;
     border-color: rgb(128, 166, 174);    
     border-bottom-left-radius: 40%;
-    border-top-right-radius: 60%;
+    border-top-right-radius: 40%;
 }
+
 /* styling texts */
 .links a:link {
     text-decoration: none;
@@ -56,6 +57,7 @@ nav {
     font-family: "Bungee", sans-serif;
     font-style: normal;
     font-weight: 400;
+    transition: 0.2s;
 }
 
 .links a:hover {
@@ -91,6 +93,39 @@ nav {
     
 
 }
+
+/* making the tab content function stuff I suppose */
+
+.tab {
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #7e8294;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px, 16px;
+    transition: 0.5s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    margin: 0px 10px 0px 20px;
+    
+
+}
+
 /* content within "tabs */
 .Cusinecolumn {
     display: grid;
