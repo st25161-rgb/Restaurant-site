@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- Please Dont Forget, from the bottom of my heart, I am truly inlove with the hope that sleeps inside yourself -->
+
 <head>
     <title>Restaurant</title>
     <link rel="stylesheet" href="CSS/page3.css">
@@ -29,12 +31,14 @@
 
     </nav>
     <main>
-        <div class="maingrid">
-            <div  class="aboutEG" id="about">
-                <h2 id="Abouttitle">About Restaurant</h2>
-                <img id=img1 src="https://static.where-e.com/New_Zealand/Eastern-Grill_cce9b5e65b17361ae15fa69caee60fa1.jpg" width="200px" height="200px">
-                <h3 id="aboutsubtitle">Eastern Grill specialises in:</h3>
-                <p id="contentabout">
+        <div  class="aboutEG">
+            <h1 id="headtitle">About Restaurant</h2>
+            <div class="contin">
+                <div>
+                    <img id=img1 src="https://static.where-e.com/New_Zealand/Eastern-Grill_cce9b5e65b17361ae15fa69caee60fa1.jpg" width="200px" height="200px">
+                </div>
+                <div id="contentabout">
+                    <h3 id="aboutsubtitle">Eastern Grill specialises in:</h3>
                     <ul id="list">
                         <li>Pizza</li>
                         <li>Burgers</li>
@@ -42,34 +46,75 @@
                         <li>Lamb Cutlets</li>
                         <li>Lamb chops</li>
                     </ul>
-                </p>
-            </div>
-            <div Class="About a food" id="about">
-                <h2 id="Abouttitle">About a menu item</h2>
-                    <img id = img2 src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZALyJyZKuDPt_9JVwRe5qX1ElgMO9QevvUonais3p6I-BFYEjoOLNfZFhWgEBxLSQZtkdEY2FDNiKIMmMxYYcBexhTFq-5bZgNjSYCNVaMEIVJnvLMnJWe--YXhT0Ps7nwLMC=s1360-w1360-h1020-rw" width="250px" height="150px">
-                    <h3 id="aboutsubtitle"> Eastern Lamb Burger</h3>
-                    <p id="contentabout">
-                        
-                        <ul id="list">
-                            <li> Lamb meat patty </li>
-                            <li> Tomato </li>
-                            <li> Ketchup </li>
-                            <li> Buns </li>
-                            <li> Lettuce </li>
-                            <li> Onion and Fries </li>
-                        </p>
+                </div>
             </div>
         </div>
+        <div class="menu">
+            <h1 id="headtitle"> About menu </h1>
+            <div class="maingrid">
+                 <!-- container within -->
+                <div id="aboutBurg">
+                    <h2 id="Abouttitle">About Eastern Lamb Burger </h2>
+                    <img id = img2 src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZALyJyZKuDPt_9JVwRe5qX1ElgMO9QevvUonais3p6I-BFYEjoOLNfZFhWgEBxLSQZtkdEY2FDNiKIMmMxYYcBexhTFq-5bZgNjSYCNVaMEIVJnvLMnJWe--YXhT0Ps7nwLMC=s1360-w1360-h1020-rw" width="250px" height="150px" alt="Item photo">
+                    <h3 id="aboutsubtitle"> Eastern Lamb Burger</h3>
+                     <p id="contentabout">
+                        <ul id="list">
+                        <li> Lamb meat patty </li>
+                        <li> Tomato </li>
+                        <li> Ketchup </li>
+                        <li> Buns </li>
+                        <li> Lettuce </li>
+                        <li> Onion and Fries </li>
+
+                    </p>
+                </div>            
+             <!-- container within -->
+                <div id="aboutCombShish">
+                    <h2 id="Abouttitle">About Combo Shish</h2>
+                    <img id = img2 src="" width="250px" height="150px" alt="item photo">
+                    <h3 id="aboutsubtitle"> Combo Shish </h3>
+                       <p id="contentabout"> 
+                    <ul id="list">
+                           <li> Chicken skewer </li>
+                           <li> Lamb Skewer </li>
+                            <li> Butter rice </li>
+                          <li> Hummus </li>
+                           <li> Tabbouleh </li>
+                           <li> Mix Salad </li>
+                        </ul>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     </main>
     <footer>
         <h1 id="footertitle"> information</h1>
-        <p id="footerblurb">
-            <b id="colon">Location:</b>  <i>1/613 Great South Road, Manukau City Centre, Auckland 2104</i>
+        <div class="footerblurb" id="footerblurb">
+            <div>
+                <p>
+                 <b id="colon">Location:</b>  <i>1/613 Great South Road, Manukau City Centre, Auckland 2104</i>
+                 <br>
+                 <b id="colon">Phone:</b>  <i>09 942 5678</i>
+                </p>
+            </div>
 
-            <br>
-            <b id="colon">Phone:</b>  <i>09 942 5678</i>
-        </p>
+            <div>
+
+                <p>
+                    <b id="colon"> Open:</b> 
+                    <br> <b>Sunday   :</b> 11am - 11pm 
+                    <br> <b>Monday   :</b> 11am - 12am
+                    <br> <b>Tuesday  :</b> 11am - 12am
+                    <br> <b>Wednesday:</b> 11am - 12am
+                    <br> <b>Thursday :</b> 11am - 12am
+                    <br> <b>Friday   :</b> 11am - 12am
+                    <br> <b>Saturday :</b> 11am - 12am
+
+                </p>
+            </div>
+        </div>
 
     </footer>
 </body>
