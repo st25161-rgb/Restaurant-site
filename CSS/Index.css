@@ -20,8 +20,14 @@ header {
     padding: 15px 0px 0px 0px;
 }
 .links a:link {
-    text-decoration: transparent;
-    color: aliceblue;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation: unvisited infinite 3s;
+    font-size: 25px;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.2s;
 }
 .links a:hover {
     font-size: larger;
@@ -187,4 +193,22 @@ header {
     0% {color: #ffffff; }
     50% {color:rgb(148, 170, 170); text-decoration: wavy;}
     100% {color: #f5f5dc; }
+}
+
+@keyframes unvisited {
+    0% { text-decoration: underline; color: rgb(241, 249, 255); }
+    50% { text-decoration: underline; color: rgb(177, 185, 205); }
+    100% { text-decoration: underline; color: rgb(255, 255, 255); }
+}
+@keyframes hover {
+    0% { text-decoration: none; color: rgb(191, 223, 248); }
+    50% { text-decoration: none; color: rgb(153, 168, 205); }
+    100% { text-decoration: none; color: rgb(191, 223, 248); }
+}
+@keyframes underlineflow {
+    0% { text-decoration: underline; text-decoration-color:#7c88b7;}
+    50% {text-decoration: underline; text-decoration-color:#98a5d7;}
+    100% { text-decoration: underline; text-decoration-color:#7c88b7;}
+
+
 }
