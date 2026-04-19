@@ -42,8 +42,26 @@ body {
 
 .contin {
     display:grid;
-    grid-template-columns: auto auto;
-    margin: 0px 0px 10px 0px
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    cursor: grab;   
+}
+
+.reviews {
+    /* overfllow control */
+    overflow-y: scroll;
+    width: 400px;
+    height:200px;
+    cursor: pointer;
+}
+
+
+#list {
+    /* typogrpahy stuff */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ccc;
+    font-size: 20px;
 }
 .maingrid {
     display: grid;
@@ -75,12 +93,17 @@ body {
     font-style: normal;
 }
 
-
+#contentabout {
+    background-color: #6d7d7d;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+}
 
 .contentabout {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
+
     
 }
 
@@ -111,6 +134,27 @@ body {
     font-variation-settings:
     "wdth" 100;
     
+}
+
+#aboutsubtitle {
+    font-size: 20px;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal, bold;
+}
+
+.reviews {
+    color: white;
+}
+
+#reviews {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 #headtitle {
