@@ -51,16 +51,39 @@ body {
     justify-content:space-evenly;
     margin: 10px 0px 10px 0px;
     column-gap: 50px;
+    
 }
-
-.maingrid div {
-    display:grid;
+.menu {
+    border-style: solid;
+    background-color: #626777;
+}
+.contentabout {
+    display: grid;
     grid-template-columns: auto auto;
-    border: 3px solid #ccc;
-    transition: 2s;
-    background-color: #676767;
-
+    column-gap: 20px;
+    width: auto;
 }
+.price {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#about {
+    color: white;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.contentabout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    
+}
+
 
 .aboutEG {
     display:grid;
@@ -88,6 +111,11 @@ body {
     font-variation-settings:
     "wdth" 100;
     
+}
+
+#headtitle {
+    color: white;
+    animation: underlineflow2 infinite 3s
 }
 
 #Abouttitle {
@@ -140,4 +168,13 @@ body {
     0% { text-decoration: underline; text-decoration-color:#7c88b7;}
     50% {text-decoration: underline; text-decoration-color:#98a5d7;}
     100% { text-decoration: underline; text-decoration-color:#7c88b7;}
+}
+
+@keyframes underlineflow2 {
+    0% { text-decoration: underline; text-decoration-color:#ffffff;}
+    25% {text-decoration: underline; text-decoration-color:#3e3e3e;}
+    50% { text-decoration: underline; text-decoration-color:#b3b3b3;}
+    75% { text-decoration: underline; text-decoration-color:#3e3e3e;}
+    100% { text-decoration: underline; text-decoration-color:#ffffff;}
+
 }
