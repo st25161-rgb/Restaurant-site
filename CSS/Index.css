@@ -88,14 +88,16 @@ header {
 #title3 {
     animation: Namecolour1 5s;
     color: white;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s");
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s"); */
+        background-color: rgba(139, 114, 74, 0.248); 
+
     font-size: 40px;
     text-align: center;
     padding: 10px 0px 0px 0px;
     border-style: double;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    border-color: rgb(84, 67, 44);
+    border-color: rgb(255, 255, 255);
     border-bottom-style : none;
     /* Title font info */
     font-family: "Bungee", sans-serif;
@@ -108,9 +110,11 @@ header {
 /* Blurb part of the site and its styling */
 .blurb {
     margin-top: 10px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s");  
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s");   */
+        background-color: rgba(139, 114, 74, 0.248); 
+
     border-style: groove;
-    border-color: #2a2a2a;
+    border-color: #ffffff;
 }
 #blurb {
     padding: 5px 0px 5px 10px;
@@ -137,7 +141,7 @@ header {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: 140px;
     font-style: normal;   
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbZqBZHR86fR95gqUAU0ZH0_rSsS7tWItcQ&s");
+    background-color: rgba(139, 114, 74, 0.248); 
     border-style: double;
     border-top-style: none;
     border-color: rgb(157, 124, 82);
@@ -175,7 +179,8 @@ header {
     padding: 5px 10px 0px 10px;
     width:200px;
     margin-left: 15px;
-    background-image: url("https://market-resized.envatousercontent.com/photodune.net/EVA/TRX/50/e6/75/a4/a3/v1_E10/E10U27L.jpg?auto=format&q=94&mark=https%3A%2F%2Fassets.market-storefront.envato-static.com%2Fwatermarks%2Fphoto-260724.png&opacity=0.2&cf_fit=contain&w=590&h=330&s=b0ac2bd0cef7655b25a6fc6e9e74d558da499b73d9c143d728a1ccd2d8aac253");
+    background-color: rgba(255, 232, 147, 0.489);
+    border-color: #ffffff;
 
 }
 

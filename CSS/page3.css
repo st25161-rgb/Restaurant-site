@@ -1,4 +1,17 @@
-@media screen and (min-width: 1536px) and (min-height: 695px) { }
+@media  screen and (max-width: 1000px)and (max-width:659){
+    .links a:link {
+        font-size: 25px   
+    }
+    .links a:hover {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1536px) and (min-height: 695px) {}
 
 
 /* web body */
@@ -16,6 +29,8 @@ body {
     border: solid 1px #000000;
     background-color: #4a4a4a;
 }
+
+
 
 .links a:link {
     /* styling links */
@@ -45,7 +60,7 @@ body {
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     column-gap: 30px;
-    cursor: grab;   
+    cursor: pointer;   
 }
 
 .reviews {

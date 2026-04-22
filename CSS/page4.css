@@ -1,4 +1,156 @@
 @media screen and (min-width: 1536px) and (min-height: 695px) {
+    .column {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+}
+@media screen and (max-width: 400px) and (max-height: 600) {
+    .column {
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+
+}
+
+
+/* Body structure and placment and stuff + styling */
+
+body {
+    background-color: rgb(57, 37, 37);
+    color: #ffffff;
+}
+
+
+header {
+    background-color: rgba(131, 150, 131, 0.452);
+    margin: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-style: double groove none groove;
+    border-color: white;
+}
+
+main{
+    background-color: rgba(97, 140, 104, 0.373);
+    padding: 5px 10px 10px 10px;
+    border: 2px solid #ccc;
+    margin: 10px
+}
+
+footer {
+    background-color: rgba(126, 139, 122, 0.452);
+    margin: 10px;
+    border: 2px solid #ccc;
+}
+
+/* Main Links */
+.cuisinelink {
+    display: flex;
+    justify-content: space-evenly;
+}
+    /* Link look */
+#clink a:link {
+    text-decoration: none;
+    color: rgb(207, 207, 207) ;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#clink a:hover {
+    text-decoration: none;
+    color: rgb(207, 207, 207) ;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+/* Titles */
+
+#maintitle {
+    color: white;
+    font-family: "Saira", sans-serif;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    text-decoration: underline;
+    text-decoration-color: rgb(132, 152, 146);
+}
+
+#subtitle {
+    /* stlying text look */
+    font-family: "Saira", sans-serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    /* styling placement */
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Nav Links */
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(131, 150, 131, 0.452);
+    margin: 0px 10px 0px 10px;
+    padding: 2px 0px 2px 0px;
+    border-style: none  groove solid groove;
+    border-color: white ;
+}
+
+.links a:link {
+    /* styling links */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation: unvisited infinite 5s;
+    font-size: 30px;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.links a:hover {
+    font-size: 40px;
+    text-decoration: none;
+    animation: hover infinite 5s;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* animations */
+@keyframes unvisited {
+    0% { text-decoration: underline; color: rgb(241, 249, 255); }
+    50% { text-decoration: underline; color: rgb(177, 185, 205); }
+    100% { text-decoration: underline; color: rgb(255, 255, 255); }
+}
+@keyframes hover {
+    0% { text-decoration: none; color: rgb(191, 223, 248); }
+    50% { text-decoration: none; color: rgb(153, 168, 205); }
+    100% { text-decoration: none; color: rgb(191, 223, 248); }
+}
+@keyframes underlineflow {
+    0% { text-decoration: underline; text-decoration-color:#7c88b7;}
+    50% {text-decoration: underline; text-decoration-color:#98a5d7;}
+    100% { text-decoration: underline; text-decoration-color:#7c88b7;}
 
 
 }
