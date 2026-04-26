@@ -42,8 +42,13 @@
                     <h2 id="subtitle"> Thai </h2>
 
                     <div class="cuisinelink" id="clink">
-                        <a href="https://www.recipetineats.com/tom-yum-soup-thai/">Tom Yum Goong</a>
-                        <a href="https://www.recipetineats.com/thai-stir-fried-noodles-pad-see-ew/">Pad See Ew</a>  
+                            <a href="https://www.recipetineats.com/tom-yum-soup-thai/" id="click1">Tom Yum Goong</a>
+                            <a href="https://www.recipetineats.com/thai-stir-fried-noodles-pad-see-ew/" id="click1">Pad See Ew</a>  
+                    </div>
+
+                    <div id="g">
+                            <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWcCEVsk6OghX2Rg9LQlZSs9yNfT8_n4ZIw&s">
+                            <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIn2BqHrDhhZpaQuIpO3D3w4aR0YJO2Mchw&s">
                     </div>
 
                 </div>
@@ -52,10 +57,13 @@
                     <h2 id="subtitle"> Italian</h2>
 
                     <div class="cuisinelink" id="clink">
-                        <a href="https://www.recipetineats.com/lasagna/"> Lasagna</a>
-                        <a href="https://www.recipetineats.com/nagi-big-easy-pasta-salad/">Pasta Salad</a>
+                        <a href="https://www.recipetineats.com/lasagna/" id="click2" > Lasagna</a>
+                        <a href="https://www.recipetineats.com/nagi-big-easy-pasta-salad/" id="click2" >Pasta Salad</a>
                     </div>
-
+                    <div id="g">
+                            <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqCHJ8J4Nfxuvp4A5MPS1h8lstOvBh8P1NA&s">
+                            <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ymEscObBZNfqQMxOnqiGZAFZy6U733FZeA&s">
+                    </div>
                 </div>
 
             </div>
@@ -65,21 +73,47 @@
 
         <div class="restaurant">
                 <h2 id="subtitle"> Eastern Grill Contact </h1>
-                <div  class="restlink">
-                    <a href="https://www.facebook.com/easterngril/"> Facebook</a>
-                    <a href="https://www.instagram.com/easterngrill_/"> Instagram </a>
-        </div>
+                <div  class="restlink" id="clink">
+                    <a href="https://www.facebook.com/easterngril/" id="click3"> Facebook</a>
+                    <a href="https://www.instagram.com/easterngrill_/" id="click3"> Instagram </a>
+                </div>
+                <div id="map">
+                    <h2> restaurant location on map:</h2>
+                    <img src="/Images/Screenshot 2026-04-23 114829.png" alt="Map photo of location" width="400px" id="map">
+                    </div>
+                
     </main>
 
     <footer>
         <h1 id="subtitle"> My contact</h1>
         <div class="mycontact">
             <div id="footerblurb">
-                <p>If you would like to contact me about feedback for this website, that would be greatly appreciated</p>
+                <p>
+                    Hi i'm Shams and I made this wesbsite as a school assigment
+                    <br>
+                    If you would like to contact me about feedback for this website, that would be greatly appreciated
+                    <br>
+                    Please email me at:
+                </p>
             </div>
             <div id="myinfo">
-                <p> Please email me at: <b> st25161@ormiston.school.nz</b></p>
+                <p> <b> st25161@ormiston.school.nz</b></p>
             </div>
+                <!-- I wrote this part on ipad, thats why the speechmarks look different (just so you know) -->
+            <div class="form">
+            <form action="/Action/Action_page.php" autocomplete="on" target="blank">
+                 <p>short feedback form (20 characters or less)<p>
+                <label for="name"> Your name </label> <br>
+                <input type="text" id="name" name="name"><br>
+                <label for="feedback"> Your feedback:</label><br>
+                <input type="text" id="feedback" name="feedback"><br>
+                <label for="preference"> Pick your preferred Cuisine </label><br>
+                <input type="radio" id="rthai" name="fav_cuisine" value="rthai">  <label for="rthai"> Thai </label><br>
+                <input type="radio" id="ritalian" name="fav_cuisine" value="ritalian"> <label for="RItalian"> Thai </label><br>
+                <input type="radio" id="rnone" name="fav_cuisine" value="rnone">  <label for="rnone"> None </label><br>
+                <input type="submit" value="submit">
+            </form>
+
         </div>
 
     </footer>

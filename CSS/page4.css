@@ -1,19 +1,9 @@
-@media screen and (min-width: 1536px) and (min-height: 695px) {
-    .column {
-    display: grid;
-    grid-template-columns: auto auto;
+
+@media screen and (max-width:770) and (min-height:696) {
     
 }
 
-}
-@media screen and (max-width: 400px) and (max-height: 600) {
-    .column {
-    display: grid;
-    grid-template-columns: auto;
-    
-}
 
-}
 
 
 /* Body structure and placment and stuff + styling */
@@ -48,8 +38,18 @@ footer {
     border: 2px solid #ccc;
 }
 
+#g {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
 /* Main Links */
 .cuisinelink {
+    display: flex;
+    justify-content: space-evenly;
+}
+.restlink {
     display: flex;
     justify-content: space-evenly;
 }
@@ -71,6 +71,16 @@ footer {
     font-style: normal;
     font-size: 25px;
     transition: 0.5s;
+}
+
+#footerblurb {
+    margin: 10px;
+}
+#myinfo {
+    margin: 10px;
+    font-family: "Bungee", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 /* Titles */
@@ -134,6 +144,36 @@ footer {
     font-family: "Bungee", sans-serif;
     font-style: normal;
     font-weight: 400;
+}
+
+#click1 {
+    color: rgb(207, 207, 207) ;
+}
+#click2 {
+    color: rgb(207, 207, 207) ;
+}#click3 {
+    color: rgb(207, 207, 207) ;
+}
+
+/* special*/
+.form {
+    margin:20px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+#map {
+    position:relative;
+    left: 20px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 /* animations */

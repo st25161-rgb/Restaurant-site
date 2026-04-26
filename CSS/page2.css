@@ -1,4 +1,10 @@
 
+
+
+
+
+    
+@media screen and (min-width:1536px) and (min-height:695px){
 body {
     background-image: url("https://motionarray.imgix.net/2219796-zYpbv03KZb-high_0013.jpg?w=660&q=60&fit=max&auto=format");
 }
@@ -22,10 +28,7 @@ body {
     border-style: groove double;
     border-top-color: black ;
     border-bottom-color: black;
-    border-radius: 25%;
-    
-
-    
+    border-radius: 25%; 
 }
 
 nav {
@@ -127,6 +130,8 @@ nav {
 }
 
 /* content within "tabs */
+  
+
 .Cusinecolumn {
     display: grid;
     grid-template-columns: auto auto;
@@ -179,6 +184,210 @@ nav {
     height: 100%;
     overflow-x: break-word;
 
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:760px) and (min-height:690px) {
+
+body {
+    background-image: url("https://motionarray.imgix.net/2219796-zYpbv03KZb-high_0013.jpg?w=660&q=60&fit=max&auto=format");
+}
+
+#title1 {
+    /* font and text information and styling */
+    color: rgb(244, 255, 240);
+    font-size: 50px;
+    text-align: center;
+    text-decoration:underline overline;
+    padding: 15px 0px 10px 0px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+    /* placement and background */
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/24097078/thumb/1.jpg?ip=x480");
+    border-style: groove double;
+    border-top-color: black ;
+    border-bottom-color: black;
+    border-radius: 25%; 
+}
+
+
+
+
+nav {
+    /* display arrangement */   
+    display: flex;
+    flex-direction: row     ; 
+    justify-content: space-evenly;
+    align-items:center;
+    position: relative;
+
+    /* background and spacing from other sections */
+    background-color: rgba(187, 170, 204, 0.412);
+    height: 45px;
+    margin: 0px 10px 10px 10px;
+
+    /* border */
+    border-style: groove groove double double;
+    border-color: rgb(128, 166, 174);    
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+/* styling texts */
+.links a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation: unvisited infinite 3s;
+    font-size: 25px;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.links a:hover {
+    font-size: 30px;
+    text-decoration: none;
+    animation: hover infinite 5s;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#title2 {
+    /* styling the cusiine titles look */
+    display: flex;
+    justify-content: center;
+    color: #98a5d7;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100; 
+        /* text decoration */
+            /* animation: name, duration, animation length */
+    animation: underlineflow infinite 2s ;
+    /* border */
+    border-style: groove;
+    width: 600px;
+    height:auto;
+    border-bottom-style: double;
+    border-color: #7ca4b7;
+    /* placement */
+
+    
+
+}
+
+/* making the tab content function stuff I suppose */
+
+.tab {
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #7e8294;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px, 16px;
+    transition: 0.5s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    margin: 0px 10px 0px 20px;
+    
+
+}
+
+/* content within "tabs */
+  
+
+.Cusinecolumn {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 100px;
+    width:800px;
+    height: auto;
+    position: relative;
+}
+
+
+.Cusinecolumn div {
+    margin:10px;
+}
+
+#Foodtitle {
+    /* font style/colour */
+    color: #000000;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    /* position/placement */
+    padding: 5px 0px 10px 10px;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-style: double double ridge ridge;
+    margin: 10px 20px 10px 10px;
+}
+
+#imgtitle {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+#Foodblurb {
+    /* font styling */
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* padding */
+    border-style: none none double none;
+    
+}
+
+#contentback {
+    background-color: rgba(222, 221, 221, 0.573);
+    width: 75%;
+    height: 100%;
+    overflow-x: break-word;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+
+}
 }
 
 /* animations */

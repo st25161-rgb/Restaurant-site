@@ -1,17 +1,231 @@
-@media  screen and (max-width: 1000px)and (max-width:659){
-    .links a:link {
-        font-size: 25px   
-    }
-    .links a:hover {
-        font-size: 30px;
-    }
+
+
+@media screen and (min-width:760px) and (min-height:690px) {    
+/* web body */
+body {
+    background-color:rgb(119, 118, 118);
+}
+
+/* Please Dont Forget, from the bottom of my heart, I am truly inlove with the hope that sleeps inside yourself */
+
+/* stlying links */
+.links {
+    /* links look */
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 1px #000000;
+    background-color: #4a4a4a;
+}
+
+
+
+.links a:link {
+    /* styling links */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation: unvisited infinite 5s;
+    font-size: 30px;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.links a:hover {
+    font-size: 40px;
+    text-decoration: none;
+    animation: hover infinite 5s;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* styling the about section in main */
+
+.contin {
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    cursor: pointer;   
+}
+
+.reviews {
+    /* overfllow control */
+    overflow-y: scroll;
+    width: 400px;
+    height:200px;
+    cursor: pointer;
+}
+
+
+#list {
+    /* typogrpahy stuff */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ccc;
+    font-size: 20px;
+}
+.maingrid {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content:space-evenly;
+    margin: 10px 0px 10px 0px;
+    column-gap: 50px;
+    
+}
+.menu {
+    border-style: solid;
+    background-color: #626777;
+}
+.contentabout {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    width: auto;
+}
+.price {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#about {
+    color: white;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#contentabout {
+    background-color: #6d7d7d;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+}
+
+.contentabout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+
+    
+}
+
+
+.aboutEG {
+    display:grid;
+    justify-content: center ;
+    background-color: grey;
+    border-style: solid solid double double;
+    border-color: white; 
+    width:auto;
+    height: auto;
+}
+
+
+/* images */
+
+
+/* titles */
+
+#titleunder {
+    font-size: 80px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position:absolute;
+    color:#00000076;
+    top:-40px;
+    left:30px;
+}
+#titletop {
+    font-size: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position:relative;
+    color:white;
+    top:12px;
+    left:200px;
+    font-optical-sizing: 
+}
+#headtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    
+}
+
+#aboutsubtitle {
+    font-size: 20px;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal, bold;
+}
+
+.reviews {
+    color: white;
+}
+
+#reviews {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+#headtitle {
+    color: white;
+    animation: underlineflow2 infinite 3s
+}
+
+#Abouttitle {
+    /* font family adjustments */
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;    
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 25px;
+    /* placement */
+    margin: 5px 0px 5px 20px;
+    
+}
+
+#aboutsubtitle {
+     /* font family adjustments */
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;    
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 20px;
+    /* Placement*/
+    margin: 0px 0px 5px 25px;
+}
+
+/* footer */
+.footerblurb {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: solid 1px #ccc;
+    background-color: #969696cc;
+}
 }
 
 
 
 
 
-@media screen and (min-width: 1536px) and (min-height: 695px) {}
+@media screen and (min-width: 1535px) and (min-height: 690px) {
 
 
 /* web body */
@@ -211,7 +425,7 @@ body {
     border: solid 1px #ccc;
     background-color: #969696cc;
 }
-
+}
 
 @keyframes unvisited {
     0% { text-decoration: underline; color: rgb(241, 249, 255); }
