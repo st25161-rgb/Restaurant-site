@@ -4,8 +4,6 @@
 }
 
 
-
-
 /* Body structure and placment and stuff + styling */
 
 body {
@@ -32,6 +30,12 @@ main{
     margin: 10px
 }
 
+.Cuisine {
+    border: 2px solid green;
+    
+}
+
+
 footer {
     background-color: rgba(126, 139, 122, 0.452);
     margin: 10px;
@@ -43,6 +47,8 @@ footer {
     grid-template-columns: auto auto;
     justify-content: space-evenly;
 }
+
+
 
 /* Main Links */
 .cuisinelink {
@@ -82,7 +88,6 @@ footer {
 font-weight: 400;
 font-style: normal;
 }
-
 /* Titles */
 
 #maintitle {

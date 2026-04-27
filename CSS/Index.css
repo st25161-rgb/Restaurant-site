@@ -97,7 +97,7 @@ header {
 
     font-size: 30px;
     text-align: center;
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
     border-style: double;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -295,7 +295,7 @@ header {
 
     font-size: 40px;
     text-align: center;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 20px 0px;
     border-style: double;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
