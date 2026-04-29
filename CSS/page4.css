@@ -48,6 +48,10 @@ footer {
     justify-content: space-evenly;
 }
 
+.gridrest {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
 
 /* Main Links */
