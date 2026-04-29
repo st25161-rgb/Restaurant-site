@@ -224,12 +224,10 @@ body {
 
 @media screen and (min-width: 1535px) and (min-height: 690px) {
 
-
 /* web body */
 body {
     background-color:rgb(119, 118, 118);
 }
-
 
 /* stlying links */
 .links {
